@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+    font-family:'Montserrat', sans-serif; ;
+    line-height: 1.7;
+    color: #fff;
+    background: #000;
+
+
+}
+
+
+nav{
+    background: rgb(56 49 49 / 92%);
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    box-shadow: 0 3rem 3rem  rgba(0 ,0, 0, 50%);
+}
+
+
+.navbar{
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+}
+
+.navbar span {
+    font-size: 25px;
+}
+
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav_menu a {
+    font-size: 20px;
+    color: #fff;
+    transition: all 400ms ease;
+}
+
+.nav_menu a:hover{
+    color: #ff0000;
+}
+
+nav button{
+    display: none;
+
+}
+
+
+
+.img1{
+    background-size: cover;
+    min-height: 70vh;
+    background-position: center;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+}
+
+span{
+    font-size: 20px;
+    color: #ff0000;
+
+}
+
+h2{
+    font-size: 40px;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.3rem 2.8rem;
+    padding-right: 3rem;
+    font-size: 20px;
+
+    border: 10px solid red;
+    background: #ff0000;
+    border-radius: 7px;
+    color: #fff;
+   
+    
+}
+
+a:hover{
+ transform: scale(1.1);
+ transition: all 400ms ease;
+}
+
+
+
+
+
+.about{
+    display: flex;
+    margin: 5rem 2rem auto;
+    gap: 5rem;
+
+}
+
+.fit_left a{
+    color: #fff;
+    font-size: 20px;
+
+    
+}
+
+.fit_right p{
+    align-items: center;
+    line-height: 2;
+    padding: 0;
+    margin: 3 3 auto;
+
+    
+
+}
+
+
+.fit_right h1{
+    align-items: center;
+    line-height: 2;
+    margin-top:  auto;
+
+    font-size: 40px;
+
+
+}
+
+
+
+.column{
+    display: grid;
+    margin: 4rem;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+i{
+    color: red;
+    font-size: 30px;
+}
+
+
+.btn2{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.3rem 2.8rem;
+    padding-right: 3rem;
+    font-size: 20px;
+
+    border: 10px solid red;
+    background: #ff0000;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.btn2:hover{
+    transform: scale(1.1);
+}
+
+
+.features{
+    margin: 5rem 2rem auto ;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+    
+}
+.heading span{
+    font-size: 2rem;
+    color: #ff0000;
+    background: black;
+    padding: .5rem 1.5rem;
+    border: 2px solid white;
+}
+.heading::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: .1rem;
+    background: #fff;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.features{
+    margin: 5rem 2rem auto;
+  
+    
+
+}
+.ftr{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns:1fr 1fr  1fr;
+    gap: 2rem;
+    align-items: center;
+    background: rgb(15, 14, 14);
+    margin: 5rem 10rem 5rem;
+    padding-bottom: 2rem;
+    
+}
+
+
+
+
+
+.content2  img{
+  
+filter: invert();
+
+
+}
+
+.content2  img{
+    filter: invert();
+    }
+
+.content6 img{
+     filter: invert();
+     }
+
+.content4 img{
+    
+     filter: invert();
+     }
+
+     .content3 img{
+        padding: 0rem 0rem 2rem 2rem; 
+        margin: 2rem 2rem 2rem;
+     }
+
+     .content1 img{
+        padding: 0rem 0rem 2rem 2rem; 
+        margin: 0;
+     }
+
+     .content4{
+        margin-left: 2rem;
+     }
+     
+
+     .imgs:hover{
+        transform: scale(1.1);
+        transition: all 400ms ease;
+     }
+    
+
+
+
+
+
+
+
+
+     .price{
+        margin: 1rem 2rem auto;
+        padding: 1rem 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
+        
+     }
+
+     .pricing_plan p{
+        line-height: 1.7;
+        font-size: 12px;
+       padding: 1rem 0rem;
+       text-align: left;
+     }
+
+
+     .pricing_plan span {
+        display: flex;
+        font-size: 17px;
+        padding: 1rem 1rem;
+        color: #fff;
+
+     }
+     .basic{
+        padding: 3rem 1rem;
+        background: rgb(27, 26, 26);
+        margin-right: 18.5rem;
+        
+        
+     }
+
+
+     .basic span{
+        display: flex;
+        font-size: 17px;
+        padding: 1rem 1rem;
+        color: #fff;
+
+        
+        
+     }
+
+     .basic h3,h4{
+        left: 2rem;
+        position: relative;
+        font-size: 25px;
+     }
+
+     .premium{
+        padding: 3rem 1rem;
+        background: rgb(27, 26, 26);
+        margin-right: 18.5rem;
+        
+      
+     }
+
+     .premium span{
+        display: flex;
+        
+        font-size: 17px;
+        padding: 1rem 1rem;
+        color: #fff;
+
+     }
+
+     .premium h3,h4{
+        left: 2rem;
+        position: relative;
+        font-size: 25px;
+     }
+
+
+
+
+
+
+.trainers{
+
+    margin: 7rem 2rem;
+   
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+
+.trainer_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+   
+
+}
+
+.team{
+    background: rgb(22, 20, 20);
+    padding: 2rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    filter: saturate(0);
+    cursor: pointer;
+}
+
+.img img{
+    width: 90%;
+    object-fit: cover;
+}
+
+
+.team:hover{
+    background: rgba(36, 32, 32, 0.027);
+    border-color:rgba(219, 7, 7, 0.548) ;
+    filter: saturate(1);
+    transition: all 400ms ease;
+}
+
+
+.trainer_info {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.trainer_info p {
+    color: #ff0000;
+    font-size: 20px;
+
+}
+
+
+.trainer_social{
+    position: absolute;
+    top: 50%;
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem 00 1rem;
+    transform: translateY(-50%);
+    box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
+    transition: all 400ms ease;
+    
+    
+
+}
+
+.team:hover .trainer_social{
+    
+    right: 0;
+}
+
+
+.trainer_social i{
+
+    font-size: 35px;
+}
+
+
+
+
+.head{
+    text-align: center;
+    margin-bottom: 6rem;
+    position: relative;
+    
+
+}
+
+
+.head span{
+    font-size: 2rem;
+    color: #ff0000;
+    background: black;
+    padding: .5rem 1.5rem;
+    border: 2px solid white;
+}
+
+
+.head::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: .1rem;
+    background: #fff;
+    width: 100%;
+    z-index: -1;
+}
