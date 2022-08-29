@@ -65,7 +65,7 @@ nav{
     color: #ff0000;
 }
 
-nav button{
+#close{
     display: none;
 
 }
@@ -98,8 +98,8 @@ h2{
     padding-right: 3rem;
     font-size: 20px;
 
-    border: 10px solid red;
-    background: #ff0000;
+    
+    background: linear-gradient(151deg, #f10000, transparent);
     border-radius: 7px;
     color: #fff;
    
@@ -177,8 +177,8 @@ i{
     padding-right: 3rem;
     font-size: 20px;
 
-    border: 10px solid red;
-    background: #ff0000;
+    background: linear-gradient(151deg, #f10000, transparent);
+
     border-radius: 7px;
     color: #fff;
 }
@@ -476,3 +476,336 @@ filter: invert();
     width: 100%;
     z-index: -1;
 }
+
+
+
+
+
+.banner{
+    background: url(../img/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 1rem 2rem auto;
+    padding: 2rem;
+    
+
+
+    
+}
+
+.banner span{
+    font-size: 2rem;
+    color: #ff0000;
+
+}
+
+.banner h3{
+    padding-top: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.banner p{
+    margin: 1rem auto;
+    max-width: 60rem;
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 2;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonials{
+    margin: 5rem 2rem auto;
+}
+
+
+
+.review{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+
+
+.information{
+    flex: 1 1 35rem;
+
+    
+}
+
+.information span{
+    font-size: 2rem;
+    color: #ff0000;
+}
+
+.information h3{
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+.information p{
+    font-size: 1.5rem;
+    line-height: 2;
+    color: white;
+    padding: 1rem 0;
+
+}
+
+.review-slide{
+    flex: 1 1 60rem;
+
+}
+
+.slide{
+    background: linear-gradient(130deg, rgb(48, 42, 42), transparent 90%);
+    padding: 2rem 3rem;
+}
+
+
+.slide p{
+    font-size: 2rem;
+    line-height: 2;
+    color: #fff;
+}
+
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user img{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+
+.user h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+
+.blogs{
+    margin: 5rem 2rem;
+}
+
+
+
+
+.blog-container{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.blog{
+    background: rgb(37, 34, 34);
+    width: 100%;
+    height: 100%;
+    border-radius: 75px;
+    
+}
+
+.blog img{
+    width: 100%;
+    height: 60%;
+   
+}
+
+.blog .info{
+    margin: 1rem 2rem;
+}
+
+.blog .info span{
+    font-size: 15px;
+}
+
+
+
+.blog .info h3{
+    font-size: 15px;
+}
+
+.blog .info p{
+    font-size: 15px;
+    line-height: 2;
+
+}
+
+.blog .info .btn4{
+    font-size: 18px;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 0.3rem 2.8rem;
+    padding-right: 3rem;
+   
+    background: linear-gradient(151deg, #f10000, transparent);
+    border-radius: 7px;
+    color: #fff;
+
+    
+}
+
+h5{
+    font-size: 20px;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5=3rem;
+}
+
+
+
+
+.quick{
+    display: inline-grid;
+    gap: 1rem;
+    margin: 1rem 16rem;
+    margin-left: 1rem;
+    
+}
+
+
+.quick h3{
+    color: #fff;
+}
+
+
+.quick a{
+    color: gray;
+    transition: all 400ms ease;
+    
+}
+
+
+.open{
+    display: inline-grid;
+}
+
+
+.open span{
+    color: gray;
+}
+.open small{
+    color: #ff0000;
+}
+
+.adress{
+    display: inline-grid;
+    
+}
+
+
+.newsletter{
+    display: inline-grid;
+    
+}
+
+.email{
+    background: rgb(37, 34, 34);
+    border: 0px solid transparent;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+    te
+}
+
+
+.newsletter .btn{
+
+    width:70% ;
+    height: 50%;
+    cursor: pointer;
+
+
+}
+
+
+
+.credit{
+    background: rgb(31, 26, 26);
+    text-align: center;
+    height: 5%;
+    margin-top: 4rem;
+   
+}
+
+
+
+
+
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:0 2rem;
+    }
+}
+
+@media (max-width:768px){
+    
+
+    .header{
+        padding: 2rem;
+    }
+    .nav{
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+
+@media (max-width:450px){
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:0 2rem;
+    }
+
+    #open{
+        display: inline-block;
+    
+    }
+}
+
+
+
